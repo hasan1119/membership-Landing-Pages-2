@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
+
+
+@font-face {
+    font-family: "futura lite";
+    src: url("fonts/futura-pt-light.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "MrEavesModOT";
+    src: url("fonts/MrEavesModOT-Book.otf") format("opentype");
+}
+
+
+
+@font-face {
+    font-family: "Futura Mid";
+    src: url("fonts/Futura\ PT\ Medium.ttf");
+}
+
+
+/* header section styles */
+header {
+    background: #fff;
+    width: 100%;
+    z-index: 2;
+}
+
+
+/* main section styles */
+.main-section {
+    background-image: url("images/bg-image.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+}
+
+/* 
+.main-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(173deg, black, #15131385)
+} */
+
+.text-holder {
+    position: relative;
+}
+
+.modal-title {
+    font-family: "MrEavesModOT";
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.register input {
+    background-color: black;
+    border: 1px solid white;
+    outline: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.modal-content.border-0.rounded-0 {
+    background: #191818 !important;
+}
+
+.form-control {
+    background: transparent;
+}
+
+.modal-title {
+    color: #fefeff;
+}
+
+.form-control p {
+    margin: 0;
+    color: #808089;
+    font-size: 11px;
+    font-family: "futura lite";
+
+}
+
+.form-check-label {
+    font-family: "futura lite";
+    font-size: 10px;
+    color: #a7aab7;
+
+}
+
+.form-check-label a {
+    text-decoration: none;
+    font-family: "futura lite";
+    font-size: 10px;
+}
+
+.submit-btn {
+    background: #393939;
+    font-family: "MrEavesModOT";
+    color: white;
+
+}
+
+.login-link {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Sintony', sans-serif;
+}
+
+
+
+.bottom-text {
+    text-align: left;
+    margin-top: 30vh;
+    font-size: 14px;
+    font-family: "futura lite";
+    color: #fefefe;
+    font-weight: smaller;
+}
+
+@media screen and (min-width:0px) {
+    .logo {
+        font-size: 30px;
+        height: 10vh;
+        line-height: 1;
+    }
+
+    .text-holder {
+        text-align: center;
+    }
+    .modal-dialog {
+        max-width: 260px;
+    }
+
+    .text-holder .title {
+        font-family: "MrEavesModOT";
+        font-size: 30px;
+        color: #fafafa;
+        padding-top: 25vh;
+    }
+
+    .desc {
+        color: #fff;
+        font-family: "MrEavesModOT";
+        font-size: 16px;
+
+    }
+
+    .register-btn {
+        background-color: #fff;
+        font-family: "Futura Mid";
+
+    }
+
+    .bottom-text {
+        text-align: left;
+        margin-top: 23vh;
+        font-size: 14px;
+        font-family: "futura lite";
+        color: #fefefe;
+        font-weight: smaller;
+    }
+
+    .modal {
+        top: 15%;
+    }
+}
+
+@media screen and (min-width:575px) {
+    .logo {
+        font-size: 50px;
+    }
+
+    .text-holder {
+        text-align: left;
+        max-width: 400px;
+        padding-left: 10px;
+    }
+
+    .text-holder .title {
+        font-family: "MrEavesModOT";
+        font-size: 46px;
+        color: #fafafa;
+        padding-top: 25vh;
+    }
+
+    .desc {
+        color: #fff;
+        font-family: "MrEavesModOT";
+        font-size: 24px;
+        line-height: 1.2;
+
+    }
+
+    .register-btn {
+        background-color: #fff;
+        font-family: "Futura Mid";
+
+    }
+
+    .bottom-text {
+        text-align: left;
+        font-size: 18px;
+        font-family: "futura lite";
+        color: #fefefe;
+        font-weight: smaller;
+        margin-top: 17vh;
+    }
+
+    .modal {
+        top: 15%;
+    }
+
+    .modal-dialog {
+        max-width: 550px;
+    }
+
+
+    .modal-title {
+        color: #fefeff;
+    }
+    
+    .form-control p {
+        margin: 0;
+        color: #808089;
+        font-size: 11px;
+        font-family: "futura lite";
+    
+    
+    }
+    
+    .form-check {
+        font-family: "futura lite";
+        font-size: 10px;
+        color: #a7aab7;
+        margin-top: 30px;
+    
+    }
+    
+    .form-check-label a {
+        text-decoration: none;
+        font-family: "futura lite";
+        font-size: 10px;
+    }
+    
+    .submit-btn {
+        background: #393939;
+        font-family: "MrEavesModOT";
+        color: white;
+        margin-top: 20px;
+    
+    }
+    
+    .login-link {
+        margin-top: 40px;
+        color: #fff;
+        font-size: 12px;
+        font-family: 'Sintony', sans-serif;
+    }
+    
+    
+}
