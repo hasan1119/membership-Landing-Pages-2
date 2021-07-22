@@ -221,7 +221,7 @@ header {
     }
 
     .modal-dialog {
-        max-width: 550px;
+        max-width: 650px;
     }
 
 
@@ -240,16 +240,20 @@ header {
     
     .form-check {
         font-family: "futura lite";
-        font-size: 10px;
+        font-size: 14px;
         color: #a7aab7;
         margin-top: 30px;
     
     }
-    
+ 
     .form-check-label a {
         text-decoration: none;
         font-family: "futura lite";
-        font-size: 10px;
+        font-size: 13px;
+    }
+ 
+    .form-check-label  {
+        font-size: 13px;
     }
     
     .submit-btn {
